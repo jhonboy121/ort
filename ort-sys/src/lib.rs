@@ -12,7 +12,7 @@ extern crate core;
 pub mod internal;
 pub mod stub;
 
-pub const ORT_API_VERSION: u32 = 22;
+pub const ORT_API_VERSION: u32 = 15;
 
 pub use core::ffi::{c_char, c_int, c_ulong, c_ulonglong, c_ushort, c_void};
 
